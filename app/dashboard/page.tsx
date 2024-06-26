@@ -53,8 +53,8 @@ export default async function Page() {
         {<RevenueChart revenue={revenue} />}
         {<RevenueChart revenue={oddMonth} />}
         {<RevenueChart revenue={evenMonth} />}
-        {<LatestInvoices latestInvoices={latestInvoices} />}
-        {<LatestInvoices latestInvoices={latestInvoicesAsc} />}
+        {/* {<LatestInvoices latestInvoices={latestInvoices} />}
+        {<LatestInvoices latestInvoices={latestInvoicesAsc} />} */}
       </div>
     </main>
   );
